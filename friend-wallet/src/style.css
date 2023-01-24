@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+}
+/* Menu  */
+nav{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 50px;
+}
+nav div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
